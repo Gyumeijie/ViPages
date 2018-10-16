@@ -1,0 +1,27 @@
+{
+  "name": "ViPages",
+  "version": "1.0",
+  "description": "browse web pages with vi(m)-like shortcuts!",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": {
+      "16": "vi-pages-16.png",
+      "48": "vi-pages-48.png",
+      "128": "vi-pages-128.png"
+    }
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["vipages.js"]
+    }
+  ],
+  "icons": {
+    "16": "vi-pages-16.png",
+    "48": "vi-pages-48.png",
+    "128": "vi-pages-128.png"
+  }
+}
