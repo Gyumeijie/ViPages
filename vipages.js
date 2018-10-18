@@ -42,7 +42,12 @@
          window.scrollTo(0, window.scrollY-1);
       }
    }
-  
+   
+   // Readjust page height when window resized
+   window.onresize = function() {
+      onePageHeight = window.innerHeight;
+   };
+
    d.addEventListener('keydown', keyHandler, false);
 
 })(chrome, document);
