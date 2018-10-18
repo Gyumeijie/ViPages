@@ -1,4 +1,4 @@
-(function(c, d){
+(function() {
    
    // Initialize keymaps for 26 letters
    var keymaps = {};
@@ -48,8 +48,8 @@
       onePageHeight = window.innerHeight;
    };
 
-   d.addEventListener('keydown', keyHandler, false);
+   document.addEventListener('keydown', keyHandler, false);
 
-})(chrome, document);
+})();
 
 
