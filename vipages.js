@@ -8,6 +8,8 @@
    })
 
    var onePageHeight = window.innerHeight;
+   // The height of One line is 40px 
+   var oneLineHeight = 40;
    var keystrokes = 0;
 
    function keyHandler(e) {
@@ -17,13 +19,19 @@
       keystrokes += 1;
       if (e.which !== keymaps['g']) keystrokes = 0;
 
-      if (e.which === keymaps['j']) {
-         // Downwards scroll one page height
+      if (e.which === keymaps['f']) {
+         // Downwards scroll one page 
          window.scrollBy(0, onePageHeight);
-      } else if ( e.which === keymaps['k']) {
-         // Upwards scroll one page height
+      } else if (e.which === keymaps['b']) {
+         // Upwards scroll one page
          window.scrollBy(0, -onePageHeight);
-      } else if ( e.which === keymaps['g']) {
+      } else if (e.which === keymaps['j']) {
+         // Downwards scroll one line
+         window.scrollBy(0, oneLineHeight);
+      } else if (e.which === keymaps['k']) {
+         // Upwards scroll one line
+         window.scrollBy(0, -oneLineHeight);
+      } else if (e.which === keymaps['g']) {
          // Scroll to bottom
          if (e.getModifierState('CapsLock')) {
             window.scrollTo(0, document.body.scrollHeight);

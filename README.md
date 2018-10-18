@@ -9,7 +9,15 @@ Browse web pages with vi(m)-like shortcuts.
 scroll to top 
 - G            
 scroll to bottom
+- f            
+downwards scroll one **page** 
+- b            
+upwards scroll one **page**
 - j            
-downwards scroll one page height
+downwards scroll one **line**
 - k            
-upwards scroll one page height
+upwards scroll one **line**
+- d            
+downwards scroll one **pixel** 
+- u            
+upwards scroll one **pixel** 
