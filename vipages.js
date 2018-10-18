@@ -34,6 +34,12 @@
                window.scrollTo(0, 0);
             }
          }
+      } else if (e.which === keymaps['d']) {
+         // Downwards move 1px
+         window.scrollTo(0, window.scrollY+1);
+      } else if (e.which === keymaps['u']) {
+         // Upwardars move 1px
+         window.scrollTo(0, window.scrollY-1);
       }
    }
   
