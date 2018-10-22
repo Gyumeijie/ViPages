@@ -21,3 +21,6 @@ upwards scroll one **line**
 downwards scroll one **pixel** 
 - u            
 upwards scroll one **pixel** 
+
+# Guide
+`d` and `u` is useful when you want adjust the page precisely and take a screenshot.
