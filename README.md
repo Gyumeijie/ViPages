@@ -23,4 +23,4 @@ downwards scroll one **pixel**
 upwards scroll one **pixel** 
 
 # Guide
-`d` and `u` is useful when you want adjust the page precisely and take a screenshot.
+`d` and `u` is useful if you wanna achieve piexl-accuracy when adjusting the page for screenshot.
